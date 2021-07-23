@@ -1,0 +1,111 @@
+<!--tipo de documento-->
+<!DOCTYPE html>
+<!--idioma-->
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <!--linkear el css-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--dimensiones-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <!-- favicon -->
+    <link href="Imagenes/favicon.jpg" rel="icon">
+    
+    <title>Andar | Contacto</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+        <a href="index.html" class="logo"> <img src="Imagenes/andar.jpg" alt="logo"  > </a>
+            <nav class="header-right">
+              <a class="active" href="especializaciones.html">Especializaciones</a>
+              <a href="nosotros.html">Nosotros</a></li>
+              <a href="instalaciones.html">Instalaciones</a>
+              <a href="contacto.html">Contacto</a>
+            </nav>
+      </div>            
+  </header>
+    <div class="grid__container">
+      <!-- mapa responsive -->
+      <div class="map-responsive">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3202.1436290656634!2d-64.29288258486075!3d-36.62292922998538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c2cd076be7d169%3A0x627dcf2236058682!2sConsultorio%20de%20Kinesiologia%20Y%20Fisioterapia%20Andar!5e0!3m2!1ses!2sar!4v1622414993863!5m2!1ses!2sar"
+          width="600"
+          height="450"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <!-- fin mapa responsive -->
+
+      <!--Aqui va el dato de contacto telefonico-->
+      <main>
+        <div class="grid__item--contactos">
+          <h2>Contacto</h2>
+
+          <ul class="lista__contacto">
+            <li>Leandro N. Alem 19</li>
+            <li>Horario de atencion:</li>
+            <li>Lunes a Viernes de 08 a 20hs</li>
+            <li>Tel. 2954-704440</li>
+          </ul>
+        </div>
+      </main>
+      <!--Formulario de datos-->
+      <div class="grid__item--formulario">
+        <form action="#" method="POST" enctype="multipart/form-data">
+          <fieldset>
+            <legend>Envianos tu consulta por mail</legend>
+            <label for="nombreYApellido">Nombre y Apellido</label>
+            <input type="text" name="nombreYApellido" maxlength="100" />
+
+            <textarea class="textArea__mensaje">
+ Detallanos tu consulta</textarea
+            >
+
+            <h4>Selecciona la especialidad</h4>
+            <select name="especialidad">
+              <option value="fisioterapia">Fisioterapia</option>
+              <option value="gimnasio">Gimnasio</option>
+              <option value="consultaGeneral">Consulta General</option>
+            </select>
+
+            <h4>¿Ya eres paciente?</h4>
+            <label>Si</label>
+            <input type="radio" name="paciente" value="si" />
+            <label>No</label>
+            <input type="radio" name="paciente" value="no" />
+
+            <input type="submit" name="submit" value="Enviar" />
+            <input type="reset" name="reset" value="Limpiar" />
+          </fieldset>
+        </form>
+      </div>
+    </div>
+
+    <!--pie de la pagina con links a redes sociales, redes sociales no disponibles aun-->
+    <footer class="footerExtended">
+      <a href="https://www.facebook.com" target="_blank">
+        <img
+          src="Imagenes\facebook.png"
+          alt="facebook"
+          class="red__bordesRedondeados"
+        />
+      </a>
+      <a href="https://www.instagram.com" target="_blank">
+        <img
+          src="Imagenes\instagram.jpg"
+          alt="instagram"
+          class="red__bordesRedondeados"
+        />
+      </a>
+    </footer>
+  </body>
+</html>

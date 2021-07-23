@@ -1,0 +1,57 @@
+/* inicio contactos*/
+
+.grid__container{
+	display: grid;
+	grid-gap: 5px;
+	padding: 10px;
+	grid-template-columns: 40% auto;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+}
+
+.grid__item--contactos {
+	grid-column: 2;
+	grid-row: 1;
+	padding-left: 15px;
+	}
+
+.lista__contacto {
+	list-style-type: none;
+	background-color:rgb(211, 211, 211); 
+	padding-right: 100;
+	list-style-type: none;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin:0;
+	padding:0;
+}
+
+
+.grid__item--formulario {
+	grid-column: 1 2;
+	grid-row: 3;
+}
+
+.textArea{
+	width: 50%;
+	height: 100px;
+}
+
+.textArea__mensaje{
+	margin-left: 1%;
+	width: 50%;
+	height: 100px;
+}
+
+/*fin contactos*/

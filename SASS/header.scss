@@ -1,0 +1,33 @@
+/* Inicio Header*/
+.header {
+	overflow: hidden;
+	background-color: #68A49C;
+	margin: 0;
+
+    a{
+        float: left;
+	    text-decoration: none;
+	    display: block;
+    }
+  }
+
+
+  .header-right{
+	float: right;
+    a{
+        float: left;
+        text-decoration: none;
+        font-size: 20px;
+        color: whitesmoke;
+        padding: 25px 25px;
+        display: block;
+        font-family: 'Carlito';	
+        &:hover{
+            background:#54aa9f;
+            text-decoration: none;
+            color: whitesmoke;
+        }
+    }
+  }
+
+/* fin Header*/

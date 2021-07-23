@@ -1,0 +1,16 @@
+/* inicio especializaciones */
+
+.especializaciones {
+	margin-left: 10%;
+	margin-right: auto;
+	font-size: 15px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	& li:hover{
+        margin: 10px;
+        display: block;
+        transform: scale(1.1);
+        transition-duration: 1s;
+    }
+}
+
+/*fin especializaciones*/

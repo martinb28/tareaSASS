@@ -1,0 +1,40 @@
+/* inicio imgGallery*/
+.body__flex {
+	display: flex;
+    height: 600px;
+    flex-direction: column;
+}
+
+.img__nosotros {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	flex: 1;
+    margin: 1;
+	flex-direction: column;
+	padding: 2%;
+}
+
+div.gallery {
+	margin: 5px;
+	border: 1px solid whitesmoke;
+	float: left;
+	width: 180px;
+	background-color: whitesmoke;
+    &:hover {
+        border: 1px solid #777;
+        background-color: #68A49C;
+      }
+      img{
+        width: 100%;
+        height: auto;
+      }
+  }
+
+  div.desc {
+	padding: 15px;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+  }
+
+/* fin imgGallery*/
